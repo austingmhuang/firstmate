@@ -648,7 +648,7 @@ An environment variable alone is not reliable when another Herdr server is runni
 
 When the selected named server is not running, the adapter launches it without these inherited values:
 
-- Firstmate home and directory overrides.
+- Firstmate home, directory, and snapshot-file overrides.
 - Harness identity markers.
 - The supervision-model override.
 
