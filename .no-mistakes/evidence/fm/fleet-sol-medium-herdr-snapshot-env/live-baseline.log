@@ -1,0 +1,37 @@
+MODE=baseline SESSION=fm-lab-snapshot-baselin-76312-1046
+{"client":{"version":"0.9.3","channel":"stable","protocol":22,"endpoint_protocol_generation":1,"endpoint_capabilities":["surface_interest","presentation_effects_fence","health_check"],"remote_host_bridge":true,"remote_bridge_idle_timeout":true,"binary":"/Users/yuti/.local/bin/herdr","session":"fm-lab-snapshot-baselin-76312-1046"},"server":{"status":"running","running":true,"version":"0.9.3","protocol":22,"capabilities":{"live_handoff":true,"detached_server_daemon":false,"endpoint_protocol_generation":1,"surface_interest":true,"health_check":true,"ssh_agent_registration":true},"compatible":true,"endpoint_compatible":true,"socket":"/Users/yuti/.config/herdr/sessions/fm-lab-snapshot-baselin-76312-1046/herdr.sock","session":"fm-lab-snapshot-baselin-76312-1046","restart_needed":false,"server_binary_stale":false},"update":{"restart_needed":false,"server_binary_stale":false}}
+CALLER meta=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.meta status=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.status
+Removed snapshot files before creating a later pane
+{"id":"cli:workspace:create","result":{"root_pane":{"agent_status":"unknown","cwd":"/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2","focused":true,"foreground_cwd":"/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2","pane_id":"w1:p1","revision":0,"scroll":{"max_offset_from_bottom":0,"offset_from_bottom":0,"viewport_rows":40},"tab_id":"w1:t1","terminal_id":"term_65e1f9f02a3ac1","workspace_id":"w1"},"tab":{"agent_status":"unknown","focused":true,"label":"1","number":1,"pane_count":1,"tab_id":"w1:t1","workspace_id":"w1"},"type":"workspace_created","workspace":{"active_tab_id":"w1:t1","agent_status":"unknown","focused":true,"label":"snapshot-baseline","number":1,"pane_count":1,"tab_count":1,"workspace_id":"w1"}}}
+
+LATER PANE ENVIRONMENT:
+meta=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.meta
+status=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.status
+sentinel=kept
+session=fm-lab-snapshot-baselin-76312-1046
+
+FIRSTMATE CREW STATE AFTER SNAPSHOT CLEANUP:
+state: unknown · source: none · no metadata for task
+meta=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.meta
+status=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.status
+state: unknown · source: none · no metadata for task
+{"client":{"version":"0.9.3","channel":"stable","protocol":22,"endpoint_protocol_generation":1,"endpoint_capabilities":["surface_interest","presentation_effects_fence","health_check"],"remote_host_bridge":true,"remote_bridge_idle_timeout":true,"binary":"/Users/yuti/.local/bin/herdr","session":"fm-lab-snapshot-baselin-76312-1046"},"server":{"status":"running","running":true,"version":"0.9.3","protocol":22,"capabilities":{"live_handoff":true,"detached_server_daemon":false,"endpoint_protocol_generation":1,"surface_interest":true,"health_check":true,"ssh_agent_registration":true},"compatible":true,"endpoint_compatible":true,"socket":"/Users/yuti/.config/herdr/sessions/fm-lab-snapshot-baselin-76312-1046/herdr.sock","session":"fm-lab-snapshot-baselin-76312-1046","restart_needed":false,"server_binary_stale":false},"update":{"restart_needed":false,"server_binary_stale":false}}
+REUSE: only one server provision; changed caller sentinel did not relaunch it
+sentinel=kept
+session=fm-lab-snapshot-baselin-76312-1046
+meta=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.meta
+status=/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/snapshot/task.status
+FIXED ADAPTER REUSE: pre-existing polluted lab server preserved, not restarted or repaired
+bash '/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/pane-che
+ck.sh'
+01M5bash '/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/pane
+-check.sh'
+pane check completed
+01M57W3W1FE1KTZJZ781D841A2 on  HEAD [?]
+❯ bash '/Users/yuti/.no-mistakes/worktrees/7359566c8ae8/01M57W3W1FE1KTZJZ781D841A2/.snapshot-validation/baseline/pane-c
+heck.sh'
+pane check completed
+01M57W3W1FE1KTZJZ781D841A2 on  HEAD [?]
+❯
+ALL baseline assertions satisfied
+TEARDOWN: lab removed; default-session tripwire unchanged
